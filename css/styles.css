@@ -25,6 +25,10 @@ body {
 .logo-text {
   color: #000;
 }
+.logo-text:hover,
+.logo-text:focus {
+  color: var(--accent-color);
+}
 /* ссилки на страници сайта и контакты */
 .list-item {
   color: var(--title-text-color);
@@ -36,10 +40,15 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+
 .list-item:hover,
 .list-item:focus {
   color: var(--accent-color);
 }
+.list-item.current {
+  color: var(--accent-color);
+}
+
 .link {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -112,6 +121,9 @@ li {
 }
 
 /* Секция чем мы занимаемся */
+.our-team {
+  background-color: #f5f4fa;
+}
 .heading {
   color: var(--title-text-color);
   font-family: Roboto;
@@ -169,7 +181,14 @@ li {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-
+.link-item:hover,
+.link-item:focus {
+  color: var(--accent-color);
+}
+.logo-text-down:focus,
+.logo-text-down:hover {
+  color: var(--accent-color);
+}
 /* Портфоліо */
 /* Уникальная часть */
 .btn-filter {
