@@ -90,10 +90,12 @@ body {
 .btn {
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  letter-spacing: 0.06em;
 }
 .btn:hover,
 .btn:focus {
@@ -115,12 +117,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.item {
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
-}
+
 .item-title {
   color: var(--title-text-color);
   font-weight: bold;
@@ -170,13 +167,17 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .link-item {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .link-item:hover,
 .link-item:focus {
@@ -192,9 +193,16 @@ body {
 /* Уникальная часть */
 .btn-filter {
   color: var(--title-text-color);
-  font-weight: 500;
-  line-height: 26px;
   letter-spacing: 0.03em;
+  line-height: 26px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.current-btn {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 .btn-filter:hover,
 .btn-filter:hover {
